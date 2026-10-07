@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+
+
+
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+
+
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 7px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #00a8ff;
+}
+
+
+
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+
+
+
+.lenguaje {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.lenguaje h2 {
+    color: #0077b6;
+    margin-bottom: 18px;
+    border-bottom: 2px solid #0077b6;
+    padding-bottom: 8px;
+}
+
+.lenguaje p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.lenguaje strong {
+    color: #222;
+}
+
+
+
+.comparacion {
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.comparacion h2 {
+    color: #0077b6;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+
+
+.tabla-contenedor {
+    width: 100%;
+    overflow-x: auto;
+}
+
+
+
+
+table {
+    width: 100%;
+    min-width: 1100px;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+td {
+    padding: 14px;
+    text-align: center;
+    border: 1px solid #ddd;
+    line-height: 1.5;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #dff3ff;
+}
+
+td:first-child {
+    font-weight: bold;
+    color: #0077b6;
+}
+
+
+
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+
+
+@media (max-width: 700px) {
+
+    header h1 {
+        font-size: 27px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    .lenguaje {
+        padding: 20px;
+    }
+
+    .lenguaje h2 {
+        font-size: 22px;
+    }
+
+    .lenguaje p {
+        font-size: 15px;
+    }
+}
